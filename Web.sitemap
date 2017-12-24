@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Index.aspx" title="首頁"  description="首頁">
+        
+        <siteMapNode url="Quiz_Choose.aspx" title="題目選擇"  description="題目選擇" />
+        <siteMapNode url="About.aspx" title="關於我們"  description="關於我們" />
+        <siteMapNode url="Login.aspx" title="使用者登入"  description="使用者登入" />
+        
+        <siteMapNode url="Student.aspx" title="學生事務"  description="學生事務">
+            
+            <siteMapNode url="Student_Homework.aspx" title="個人作業"  description="個人作業">
+                <siteMapNode url="Student_Homework_Detail.aspx" title="作業資訊"  description="作業資訊" />
+            </siteMapNode>
+            <siteMapNode url="Student_TestRecord.aspx" title="測驗紀錄"  description="測驗紀錄" >
+                <siteMapNode url="Student_Record_Wrong.aspx" title="題目紀錄"  description="題目紀錄" />
+                <siteMapNode url="Student_WrongStatistics.aspx" title="錯誤統計"  description="錯誤統計" />
+            </siteMapNode>
+            <siteMapNode url="Student_Competition.aspx" title="測驗競賽"  description="測驗競賽" />
+            
+        </siteMapNode>
+
+        <siteMapNode url="Teacher.aspx" title="教師事務"  description="教師事務">
+            
+            <siteMapNode url="Teacher_Questions.aspx" title="題庫管理"  description="題庫管理" >
+
+                <siteMapNode url="Teacher_Question_View.aspx" title="題目管理"  description="題目管理">
+                    <siteMapNode url="Teacher_Question_Edit.aspx" title="題目編輯"  description="題目編輯" />
+                    <siteMapNode url="Teacher_Question_Insert.aspx" title="新增題目"  description="新增題目" />
+                </siteMapNode>
+                
+                <siteMapNode url="Teacher_Question_Information.aspx" title="題庫設定"  description="題庫設定">
+                    <siteMapNode url="Teacher_Question_Information_Style.aspx" title="選項編輯"  description="選項編輯" />
+                </siteMapNode>
+                
+            </siteMapNode>
+
+            <siteMapNode url="Teacher_Homework.aspx" title="作業管理"  description="作業管理">
+                
+                <siteMapNode url="Teacher_Homework_Information.aspx" title="作業設定"  description="作業設定" />
+                
+                <siteMapNode url="Teacher_Homework_Score.aspx" title="學生繳交作業"  description="學生繳交作業">
+                    <siteMapNode url="Teacher_Homework_Lack.aspx" title="缺交名單統計"  description="缺交名單統計" />
+                    <siteMapNode url="Teacher_StatisticsWrong.aspx" title="學生錯誤統計"  description="學生錯誤統計" />
+                </siteMapNode>
+                
+            </siteMapNode>
+
+          <siteMapNode url="Teacher_Competition.aspx" title="競賽管理"  description="競賽管理">
+             <siteMapNode url="Teacher_Competition_Edit.aspx" title="競賽編輯"  description="競賽編輯" />
+             <siteMapNode url="Teacher_Competition_Insert.aspx" title="舉辦比賽"  description="舉辦比賽" />
+            <siteMapNode url="Teacher_Competition_Group.aspx" title="群組成績"  description="群組成績" />
+            <siteMapNode url="Teacher_Competition_UserEdit.aspx" title="新增組別"  description="新增組別" />
+          </siteMapNode>
+          
+            <siteMapNode url="PasswordChange.aspx" title="密碼變更"  description="密碼變更" />
+            
+        </siteMapNode>
+
+      <siteMapNode url="Admin_AdCount.aspx" title="帳戶管理"  description="帳戶管理" />
+    </siteMapNode>
+</siteMap>
